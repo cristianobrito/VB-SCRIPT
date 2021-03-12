@@ -1,0 +1,152 @@
+Os valores da enumeração MsgBoxStyle estão listados na tabela a seguir.
+
+CONFIGURAÇÕES
+Membro
+
+Valor
+
+Descrição
+
+OKOnly
+
+0
+
+Exibe somente botão OK.
+
+OKCancel
+
+1
+
+Exibe botões OK e Cancelar.
+
+AbortRetryIgnore
+
+2
+
+Exibe botões anular, repetir e ignorar.
+
+YesNoCancel
+
+3
+
+Exibe botões Sim, Não e Cancelar.
+
+YesNo
+
+4
+
+Exibe botões Sim e Não.
+
+RetryCancel
+
+5
+
+Exibe os botões ' Repetir ' e ' Cancelar '.
+
+Critical
+
+16
+
+Exibe o ícone de Mensagem Crítica.
+
+Question
+
+32
+
+Exibe o Ícone de aviso de consulta.
+
+Exclamation
+
+48
+
+Exibe o ícone de mensagem de aviso.
+
+Information
+
+64
+
+Exibe o ícone de mensagem de informação.
+
+DefaultButton1
+
+0
+
+Primeiro botão é padrão.
+
+DefaultButton2
+
+256
+
+Segundo botão é padrão.
+
+DefaultButton3
+
+512
+
+Terceiro botão é padrão.
+
+ApplicationModal
+
+0
+
+Aplicativo é restrito.O usuário deve responder para o caixa de mensagem antes de continuar o trabalho no aplicativo atual.
+
+SystemModal
+
+4096
+
+O sistema é restrito.Todos os aplicativos estão suspensos até que o usuário responda à caixa de mensagem.
+
+MsgBoxSetForeground
+
+65536
+
+Especifica a janela caixa de mensagem como a janela de primeiro plano.
+
+MsgBoxRight
+
+524288
+
+Texto é alinhado à direita.
+
+MsgBoxRtlReading
+
+1048576
+
+Especifica que o texto aparecerá com leitura da direita para a esquerda nos sistemas hebraico e árabe.
+
+O primeiro grupo de valores (0–5) descreve a número e o tipo dos botões exibidos na caixa de diálogo.O segundo grupo (16, 32, 48, 64) descreve o estilo de item.O terceiro grupo (0, 256, 512) determina que botão é o padrão.O quarto grupo (0, 4096) determina a modalidade do caixa de mensagem, e o quinto grupo especifica se a janela caixa de mensagem é a janela de primeiro plano ou não, juntamente com o alinhamento e direção do texto.Ao adicionar números para criar um valor final para o argumento Buttons,use apenas um número de cada grupo.
+
+Valor de retorno
+VALOR DE RETORNO
+Constante
+
+Valor
+
+OK
+
+1
+
+Cancel
+
+2
+
+Abort
+
+3
+
+Retry
+
+4
+
+Ignore
+
+5
+
+Yes
+
+6
+
+No
+
+7
